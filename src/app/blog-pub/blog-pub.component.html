@@ -1,0 +1,14 @@
+<button class="cart-pub" [routerLink]="this.local">
+    <img [src]="this?.imageData" class="img-pub" height="150px">
+    <div class="catg">
+        {{category}}
+    </div>
+    <div class="titre">
+        {{titre}}
+    </div>
+    <div class="user">
+        <img src="/assets/user.jpg" width="30px" class="rounded-circle" >
+        {{user}} &nbsp; 
+        {{date | date:'small'}} 
+    </div>
+</button>

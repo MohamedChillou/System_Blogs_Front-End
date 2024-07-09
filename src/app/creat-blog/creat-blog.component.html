@@ -1,0 +1,24 @@
+<div class="all">
+    <h1 style="margin-bottom: 50px;">
+        Creation Blog
+    </h1>
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder=" Titre" [(ngModel)]="titre">
+    </div>
+    <select class="form-select" aria-label="Default select example"[(ngModel)]="category" >
+        <option selected>Category</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+    <div class="mb-3">
+        <input class="form-control" type="file" id="formFile" (change)="uploadImage($event)">
+    </div>
+    <div class="input-group">
+        <textarea class="form-control"  placeholder="Texte" style="height:120px ;" [(ngModel)]="text" ></textarea>
+    </div>
+    <div class="butons" >
+        <button class="btun" (click)="showInput()"><img src="/assets/verifier.png" style="width: 30px;" ></button>
+        <button class="btun"><img src="/assets/traverser.png" style="width: 25px;"></button>
+    </div>
+</div>

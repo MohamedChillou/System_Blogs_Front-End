@@ -1,0 +1,21 @@
+.all{
+    margin: 0 auto;
+    text-align: center;
+    border: solid 0px;
+    margin-top: 60px;
+    width: 55%;
+}
+.map{
+    margin-top: 140px;
+}
+
+.contcs{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap:  70px;
+}
+
+.img-space{
+    margin-right: 10px;
+}

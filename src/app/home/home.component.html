@@ -1,0 +1,31 @@
+<div class="all">
+    <div class="home">
+        <img [src]="this.blog?.image?.imageData" alt=""  class="imgHome">
+        <div class="cart">
+            <div class="catg">
+                Technology
+            </div>
+                <h5 class="titre">
+                    {{this.blog?.titre}}
+                </h5>
+            <div class="user">
+                <img src="/assets/user.jpg" width="30px" class="rounded-circle" >
+                {{this.blog?.user?.userName}} &nbsp; 
+                {{this.blog?.date}}
+            </div>
+        </div>
+    </div>
+
+    <div class="laste-post">
+        <h4>Latest Post</h4>
+    </div>
+    
+
+    <div class="pub-blogs">    
+        <app-blog-pub *ngFor="let item of this.blogs" class="btn" category="Technology" [date]="item.date" [titre]="item.titre" [user]="item.user.userName" [image]="item.image" [id]="item.id"></app-blog-pub>
+    </div>
+
+
+
+
+</div>

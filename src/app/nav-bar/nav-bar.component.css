@@ -1,0 +1,37 @@
+.all{
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: solid 0px;
+    align-items: center;
+}
+
+h6{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+#home-title{
+    margin-left: 28%;
+}
+
+ img{
+    width: 30px;
+    border-radius: 20px;  
+}
+ @media only screen and (max-width: 800px){
+    .all{
+        gap: 20px;
+    }
+    #home-title{
+        margin-left: 10%;
+    }
+}

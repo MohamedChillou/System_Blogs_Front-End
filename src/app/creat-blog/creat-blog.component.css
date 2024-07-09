@@ -1,0 +1,28 @@
+.all{
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+    border: solid 0px;
+    margin-top: 80px;
+
+}
+.input-group , .mb-3, .form-select{
+    width: 60%;
+    border: solid 0px;
+    margin: 50px auto;
+    min-width: 250px;
+}
+.btun {
+    background: none;
+    border: 0px solid;
+}
+.butons{
+    border: solid 0px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 70px;
+}
+button:hover{
+    transform: scale(1.1);
+}

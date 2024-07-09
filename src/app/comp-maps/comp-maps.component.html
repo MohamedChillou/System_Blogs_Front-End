@@ -1,0 +1,8 @@
+<google-map height="400px" width="600px" [options]="options" class="all">
+    @for (location of nzLocations; track location) {
+    <map-advanced-marker
+      #markerElem="mapAdvancedMarker"
+      [position]="{ lat: location.lat, lng: location.lng }"
+    />
+    } 
+  </google-map>
